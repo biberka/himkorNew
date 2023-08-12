@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+
+.navText {
+font-size: 20px;
+font-family: 'Nunito', sans-serif;
+font-weight: 900;
+}
+
+.blackButton {
+    background-color: black;
+}
