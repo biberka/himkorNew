@@ -6,7 +6,32 @@ font-size: 20px;
 font-family: 'Nunito', sans-serif;
 font-weight: 900;
 }
-
+/* Initial transparent state */
+.navbar-transparent {
+    background-color: transparent !important;
+    transition: background-color 0.5s ease;
+  }
+  
+  /* White background on scroll */
+  .navbar-white {
+    background-color: white !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
 .blackButton {
     background-color: black;
 }
+
+.bgImg {
+    background-image: url(imgs/buildingFour.jpg);
+    height: auto;
+    background-attachment: fixed;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
