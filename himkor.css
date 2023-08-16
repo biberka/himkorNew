@@ -39,7 +39,7 @@ font-weight: 900;
 @media (max-width: 768px) {
   .bgImg {
     background-image: url('imgs/buildingOne.jpg');
-    height: 100vh;
+    height: var(--bg-img-height);
     width: 100%;
   }
 }

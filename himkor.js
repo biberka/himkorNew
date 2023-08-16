@@ -4,12 +4,6 @@ $(document).ready(function(){
 	});
 });
 
-$(document).ready(function(){
-	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-		$(this).toggleClass('open');
-	});
-});
-
 document.addEventListener("DOMContentLoaded", function () {
 	var navbar = document.querySelector(".navbar");
 	var content = document.querySelector(".content");
@@ -26,4 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
 	updateNavbar();
 	window.addEventListener("scroll", updateNavbar);
   });
-  
+
+
+  // Get the device height
+var deviceHeight = window.innerHeight;
+
+// Set the value of the custom property
+document.documentElement.style.setProperty('--bg-img-height', deviceHeight + 'px');
