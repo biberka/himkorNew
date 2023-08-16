@@ -22,8 +22,4 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
-  // Get the device height
-var deviceHeight = window.innerHeight;
 
-// Set the value of the custom property
-document.documentElement.style.setProperty('--bg-img-height', deviceHeight + 'px');
