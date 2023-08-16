@@ -66,3 +66,7 @@ font-weight: 900;
 .otherText {
   font-family: 'Nunito Sans', sans-serif;
 }
+
+.himkormaintext {
+  opacity: 0.8;
+}
