@@ -45,7 +45,7 @@ font-weight: 900;
 /* Change background image for screens with a minimum width of 769px */
 @media (min-width: 769px) {
   .bgImg {
-    background-image: url(imgs/buildingFour.jpg);
+    background-image: url('imgs/buildingFour.jpg');
   }
 }
 
