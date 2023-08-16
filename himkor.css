@@ -38,7 +38,7 @@ font-weight: 900;
 /* Change background image for screens with a maximum width of 768px */
 @media (max-width: 768px) {
   .bgImg {
-    background-image: url('../imgs/buildingOne.jpg');
+    background-image: url('./imgs/buildingOne.jpg');
     height: 100vh;
     width: 100%;
   }
@@ -47,7 +47,7 @@ font-weight: 900;
 /* Change background image for screens with a minimum width of 769px */
 @media (min-width: 769px) {
   .bgImg {
-    background-image: url('../imgs/buildingFour.jpg');
+    background-image: url('./imgs/buildingFour.jpg');
   }
 }
 
