@@ -68,3 +68,7 @@ font-weight: 900;
 .himkormaintext {
   opacity: 0.8;
 }
+
+.img-custom {
+  border-radius: 6%;
+}
